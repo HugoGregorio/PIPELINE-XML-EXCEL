@@ -143,3 +143,15 @@ if __name__ == "__main__":
         process_tiss_pipeline(DIRETORIO_ORIGEM, ARQUIVO_SAIDA)
     else:
         print(f"Por favor, configure um DIRETORIO_ORIGEM válido. Atualmente: {DIRETORIO_ORIGEM}")
+
+ 
+ Como Executar
+Clone o repositório.
+
+Instale as dependências: pip install pandas xmltodict openpyxl.
+
+Configure o caminho da pasta de origem no script:
+
+Python
+DIRETORIO_ORIGEM = './caminho/dos/seus/xmls'
+Execute o script: python tiss_etl_pipeline.py.
